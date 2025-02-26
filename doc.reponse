@@ -1,0 +1,29 @@
+I 2:
+    Enregistrer les données acquises lors du pointage dans un fichier au format csv
+        - les données doivent être correctement enregistrées au format csv
+        - l'enregistrement doit se faire automatiquement en background
+        - si l'enregistrement échoue, il faut afficher un message d'erreur approprié et continuer l'execution normalement
+        - l'utilisateur doit pouvoir consulter les données plus tard via un menu
+
+
+
+II 1:
+    - l'enregistrement doit se faire automatiquement en background
+        - passer une frame à une autre provoque un trigger
+        - à chaque trigger, il faut récupérer les données nécessaires
+
+    - les données doivent être correctement enregistrées au format csv
+        - il faut seulement conserver les données correspondantes
+        - le fichier qui reçoit les données doit avoir l'extension .csv
+        - avant d'enregistrer le fichier, une copie doit être créée en cas de potentielle corruption
+        - il faut tester le format/la cohérence du fichier
+
+    - si l'enregistrement échoue, il faut afficher un message d'erreur approprié et continuer l'execution normalement
+        - si le fichier ne peux pas être ouvert ou que le test de format échoue, afficher un message d'erreur et remplacer par le fichier non corrompu
+
+    - l'utilisateur doit pouvoir consulter les données plus tard via un menu
+        - à la fin de la vidéo, le fichier csv doit être chargé en mémoire
+        - le menu s'affiche automatiquement à la fin de la vidéo quand le fichier csv est chargé
+        - si une erreur a été rencontrée précédemment, une bulle textuelle doit donner cette information
+
+
